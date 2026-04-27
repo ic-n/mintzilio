@@ -22,3 +22,10 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Solami love chain
+target
+.surfpool/logs/
+
+docs/*
+project.md
