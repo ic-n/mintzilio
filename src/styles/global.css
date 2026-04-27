@@ -1,14 +1,14 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --font-display: 'Bricolage Grotesque', sans-serif;
-  --font-body: 'DM Sans', sans-serif;
+    --font-display: 'Bricolage Grotesque', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
 
-  --color-chrome:      #C0C0D8;
-  --color-chrome-dim:  #808090;
-  --color-cyan-neon:   #00FFEE;
-  --color-magenta-neon:#FF00BB;
-  --color-space:       #05050F;
-  --color-surface:     #0C0C1A;
-  --color-surface-alt: #12122A;
+    --color-chrome: #c0c0d8;
+    --color-chrome-dim: #808090;
+    --color-cyan-neon: #00ffee;
+    --color-magenta-neon: #ff00bb;
+    --color-space: #05050f;
+    --color-surface: #0c0c1a;
+    --color-surface-alt: #12122a;
 }
