@@ -1,0 +1,65 @@
+{
+  "name": "Ponzilio #12",
+  "image": "https://gateway.irys.xyz/Fu3bVW96YuxWP3T1H5RuVQAzoTy5JSVvEzQDJ2ym4FxY",
+  "attributes": [
+    {
+      "value": "Rick Owens",
+      "trait_type": "BG"
+    },
+    {
+      "value": "White",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Makeup"
+    },
+    {
+      "value": "Blue",
+      "trait_type": "Eyes"
+    },
+    {
+      "value": "Sad",
+      "trait_type": "Mouths"
+    },
+    {
+      "value": "Angry",
+      "trait_type": "Brows"
+    },
+    {
+      "value": "Bowlcut White",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "ASSC",
+      "trait_type": "Clothes"
+    },
+    {
+      "value": "None",
+      "trait_type": "Glasses"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hat"
+    },
+    {
+      "value": "None",
+      "trait_type": "Weapon"
+    },
+    {
+      "value": "None",
+      "trait_type": "Overlay"
+    }
+  ],
+  "description": "Toxic Ponzilio Boyfriends - 777 generative PFP characters on Solana.",
+  "external_url": "https://ponzilio.com",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.irys.xyz/Fu3bVW96YuxWP3T1H5RuVQAzoTy5JSVvEzQDJ2ym4FxY",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

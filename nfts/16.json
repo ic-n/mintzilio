@@ -1,0 +1,65 @@
+{
+  "name": "Ponzilio #16",
+  "image": "https://gateway.irys.xyz/68dC3uDARv1G9UBXtTQBdjVBc1AwzHH5daxRrjXxa5Fd",
+  "attributes": [
+    {
+      "value": "Uber Eats Scheming",
+      "trait_type": "BG"
+    },
+    {
+      "value": "White",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Makeup"
+    },
+    {
+      "value": "Black",
+      "trait_type": "Eyes"
+    },
+    {
+      "value": "Smartass Smile",
+      "trait_type": "Mouths"
+    },
+    {
+      "value": "Default",
+      "trait_type": "Brows"
+    },
+    {
+      "value": "Normal Black",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Belle Delphine",
+      "trait_type": "Clothes"
+    },
+    {
+      "value": "Motion Sickness Glasses",
+      "trait_type": "Glasses"
+    },
+    {
+      "value": "Marlboro",
+      "trait_type": "Hat"
+    },
+    {
+      "value": "None",
+      "trait_type": "Weapon"
+    },
+    {
+      "value": "None",
+      "trait_type": "Overlay"
+    }
+  ],
+  "description": "Toxic Ponzilio Boyfriends - 777 generative PFP characters on Solana.",
+  "external_url": "https://ponzilio.com",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.irys.xyz/68dC3uDARv1G9UBXtTQBdjVBc1AwzHH5daxRrjXxa5Fd",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "toxic-ponzilio-boyfriends",
+  "directory": "./candy-machine",
+  "config": {
+    "collection": "5EpHyYP5S2UwFaWpxzD3Sm7SBD7WJ4VsR3d6Ak9Jtu8D",
+    "itemsAvailable": 19,
+    "isSequential": true,
+    "isMutable": false,
+    "guardConfig": {
+      "tokenPayment": {
+        "amount": 250000,
+        "mint": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+        "destinationAta": "DxpiW8pQEPHTTMqQdxTV9cnf4pthAeaBjLja1BSfLkSC"
+      },
+      "mintLimit": {
+        "id": 1,
+        "limit": 1
+      },
+      "botTax": {
+        "lamports": 10000000,
+        "lastInstruction": true
+      }
+    }
+  },
+  "candyMachineId": "GNCfFjQnQX71oMMmZQDML8gyHHTCv77Tu2V1Vur9ttTn"
+}

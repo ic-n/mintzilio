@@ -1,0 +1,84 @@
+---
+import "../styles/global.css";
+import MintPage from "../components/solana/MintPage";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content="Mint Toxic Ponzilio Boyfriends NFTs on Solana." />
+    <title>Mint — Mintzilio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      import { Buffer } from 'buffer';
+      import process from 'process';
+      window.Buffer = Buffer;
+      window.process = process;
+      globalThis.Buffer = Buffer;
+      globalThis.process = process;
+    </script>
+  </head>
+
+  <body class="min-h-screen bg-space text-chrome font-body text-base leading-relaxed overflow-x-hidden">
+
+    <!-- Scanlines -->
+    <div class="scanlines fixed inset-0 pointer-events-none z-[201]" aria-hidden="true"></div>
+
+    <!-- Grain -->
+    <div class="noise fixed inset-0 pointer-events-none z-[200]" aria-hidden="true"></div>
+
+    <!-- Dot grid -->
+    <div
+      class="fixed inset-0 pointer-events-none z-0 opacity-[0.055]"
+      style="background-image:radial-gradient(circle,rgba(192,192,216,0.9) 1px,transparent 1px);background-size:28px 28px;"
+      aria-hidden="true"
+    ></div>
+
+    <!-- Gradient orbs -->
+    <div class="fixed inset-0 pointer-events-none z-[1] overflow-hidden" aria-hidden="true">
+      <div
+        class="orb-1 absolute w-[500px] h-[500px] rounded-full opacity-[0.16]"
+        style="filter:blur(115px);background:radial-gradient(circle,#00FFEE,transparent 70%);top:-15%;left:-8%;"
+      ></div>
+      <div
+        class="orb-2 absolute w-[420px] h-[420px] rounded-full opacity-[0.11]"
+        style="filter:blur(115px);background:radial-gradient(circle,#FF00BB,transparent 70%);bottom:-12%;right:-5%;"
+      ></div>
+    </div>
+
+    <!-- React island -->
+    <MintPage client:load />
+
+  </body>
+</html>
+
+<style>
+  .noise {
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 200px 200px;
+  }
+  .scanlines {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent, transparent 3px,
+      rgba(0,255,238,0.011) 3px, rgba(0,255,238,0.011) 4px
+    );
+  }
+  @keyframes orbDrift {
+    0%,100% { transform: translate(0,0) scale(1); }
+    33%      { transform: translate(40px,-30px) scale(1.05); }
+    66%      { transform: translate(-20px,25px) scale(0.97); }
+  }
+  .orb-1 { animation: orbDrift 28s ease-in-out infinite; }
+  .orb-2 { animation: orbDrift 35s ease-in-out infinite -10s; }
+</style>

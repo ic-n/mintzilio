@@ -1,0 +1,65 @@
+{
+  "name": "Ponzilio #9",
+  "image": "https://gateway.irys.xyz/CMRQJhihXUSN24Y7kbarzEdk9mhvetkwM2XP7XonRf3i",
+  "attributes": [
+    {
+      "value": "Quant",
+      "trait_type": "BG"
+    },
+    {
+      "value": "White",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Makeup"
+    },
+    {
+      "value": "Green",
+      "trait_type": "Eyes"
+    },
+    {
+      "value": "Fake Polite Smile",
+      "trait_type": "Mouths"
+    },
+    {
+      "value": "Angry",
+      "trait_type": "Brows"
+    },
+    {
+      "value": "Half Dyed White Egirl Blue",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Beige Suit",
+      "trait_type": "Clothes"
+    },
+    {
+      "value": "None",
+      "trait_type": "Glasses"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hat"
+    },
+    {
+      "value": "Hand(White): Zippo",
+      "trait_type": "Weapon"
+    },
+    {
+      "value": "None",
+      "trait_type": "Overlay"
+    }
+  ],
+  "description": "Toxic Ponzilio Boyfriends - 777 generative PFP characters on Solana.",
+  "external_url": "https://ponzilio.com",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.irys.xyz/CMRQJhihXUSN24Y7kbarzEdk9mhvetkwM2XP7XonRf3i",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

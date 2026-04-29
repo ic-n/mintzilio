@@ -13,12 +13,36 @@
   },
   "dependencies": {
     "@astrojs/react": "^5.0.4",
+    "@metaplex-foundation/umi-web3js-adapters": "^1.5.1",
+    "@noble/hashes": "1.3.3",
+    "@phantom/react-sdk": "^2.0.2",
+    "@solana/wallet-adapter-base": "^0.9.27",
+    "@solana/web3.js": "^1.98.4",
     "@tailwindcss/vite": "^4.2.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "astro": "^6.1.9",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
+    "stream-browserify": "^3.0.0",
     "tailwindcss": "^4.2.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "@ledgerhq/errors": "6.33.0"
+    }
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@metaplex-foundation/mpl-core": "^1.10.0",
+    "@metaplex-foundation/mpl-core-candy-machine": "^0.3.0",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/mpl-toolbox": "^0.10.0",
+    "@metaplex-foundation/umi": "^1.5.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.5.1",
+    "tsx": "^4.21.0"
   }
 }

@@ -1,0 +1,65 @@
+{
+  "name": "Ponzilio #3",
+  "image": "https://gateway.irys.xyz/Ffx8KvS37SbmeLt7tEYandoSZSGfAa2BdFoFw5oSLysZ",
+  "attributes": [
+    {
+      "value": "Huzuni",
+      "trait_type": "BG"
+    },
+    {
+      "value": "White",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Makeup"
+    },
+    {
+      "value": "Blue",
+      "trait_type": "Eyes"
+    },
+    {
+      "value": "Sad",
+      "trait_type": "Mouths"
+    },
+    {
+      "value": "Green",
+      "trait_type": "Brows"
+    },
+    {
+      "value": "Bowlcut Blond",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "MISBHV top",
+      "trait_type": "Clothes"
+    },
+    {
+      "value": "None",
+      "trait_type": "Glasses"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hat"
+    },
+    {
+      "value": "None",
+      "trait_type": "Weapon"
+    },
+    {
+      "value": "None",
+      "trait_type": "Overlay"
+    }
+  ],
+  "description": "Toxic Ponzilio Boyfriends - 777 generative PFP characters on Solana.",
+  "external_url": "https://ponzilio.com",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.irys.xyz/Ffx8KvS37SbmeLt7tEYandoSZSGfAa2BdFoFw5oSLysZ",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
