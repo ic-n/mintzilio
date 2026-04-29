@@ -1,0 +1,65 @@
+{
+  "name": "Ponzilio #11",
+  "image": "https://gateway.irys.xyz/5uYfrYTDG6CCBg4KQ2FRJDJRDhoEwyh8UYWA4jPi4aEy",
+  "attributes": [
+    {
+      "value": "Return to God",
+      "trait_type": "BG"
+    },
+    {
+      "value": "Black",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Makeup"
+    },
+    {
+      "value": "Red",
+      "trait_type": "Eyes"
+    },
+    {
+      "value": "Smirk",
+      "trait_type": "Mouths"
+    },
+    {
+      "value": "Default",
+      "trait_type": "Brows"
+    },
+    {
+      "value": "Normal Half Dyed Blue",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "brat",
+      "trait_type": "Clothes"
+    },
+    {
+      "value": "Round Glasses",
+      "trait_type": "Glasses"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hat"
+    },
+    {
+      "value": "Jewelry: Pearl Necklace",
+      "trait_type": "Weapon"
+    },
+    {
+      "value": "None",
+      "trait_type": "Overlay"
+    }
+  ],
+  "description": "Toxic Ponzilio Boyfriends - 777 generative PFP characters on Solana.",
+  "external_url": "https://ponzilio.com",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.irys.xyz/5uYfrYTDG6CCBg4KQ2FRJDJRDhoEwyh8UYWA4jPi4aEy",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

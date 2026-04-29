@@ -1,5 +1,5 @@
 ---
-import '../styles/global.css';
+import "../styles/global.css";
 ---
 
 <html lang="en">
@@ -9,8 +9,11 @@ import '../styles/global.css';
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="description" content="Mintzilio — NFT minting that doesn't put you to sleep." />
-    <title>Mintzilio — Coming Soon</title>
+    <meta
+      name="description"
+      content="Mintzilio - NFT minting that doesn't put you to sleep."
+    />
+    <title>Mintzilio - Coming Soon</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,149 +22,253 @@ import '../styles/global.css';
     />
   </head>
 
-  <body class="min-h-screen bg-space text-chrome font-body text-base leading-relaxed overflow-x-hidden">
-
+  <body
+    class="min-h-screen bg-space text-chrome font-body text-base leading-relaxed overflow-x-hidden"
+  >
     <!-- Scanlines: Y2K CRT effect -->
-    <div class="scanlines fixed inset-0 pointer-events-none z-[201]" aria-hidden="true"></div>
+    <div
+      class="scanlines fixed inset-0 pointer-events-none z-[201]"
+      aria-hidden="true"
+    >
+    </div>
 
     <!-- Grain texture -->
-    <div class="noise fixed inset-0 pointer-events-none z-[200]" aria-hidden="true"></div>
+    <div
+      class="noise fixed inset-0 pointer-events-none z-[200]"
+      aria-hidden="true"
+    >
+    </div>
 
     <!-- Dot grid -->
     <div
       class="fixed inset-0 pointer-events-none z-0 opacity-[0.055]"
       style="background-image:radial-gradient(circle,rgba(192,192,216,0.9) 1px,transparent 1px);background-size:28px 28px;"
       aria-hidden="true"
-    ></div>
+    >
+    </div>
 
     <!-- Animated gradient orbs -->
-    <div class="fixed inset-0 pointer-events-none z-[1] overflow-hidden" aria-hidden="true">
-      <div class="orb-1 absolute w-[560px] h-[560px] rounded-full opacity-20"
-           style="filter:blur(115px);background:radial-gradient(circle,#00FFEE,transparent 70%);top:-18%;left:-10%;"></div>
-      <div class="orb-2 absolute w-[480px] h-[480px] rounded-full opacity-[0.14]"
-           style="filter:blur(115px);background:radial-gradient(circle,#FF00BB,transparent 70%);bottom:-14%;right:-6%;"></div>
-      <div class="orb-3 absolute w-[360px] h-[360px] rounded-full opacity-[0.11]"
-           style="filter:blur(100px);background:radial-gradient(circle,#C0C0D8,transparent 70%);top:42%;right:16%;"></div>
+    <div
+      class="fixed inset-0 pointer-events-none z-[1] overflow-hidden"
+      aria-hidden="true"
+    >
+      <div
+        class="orb-1 absolute w-[560px] h-[560px] rounded-full opacity-20"
+        style="filter:blur(115px);background:radial-gradient(circle,#00FFEE,transparent 70%);top:-18%;left:-10%;"
+      >
+      </div>
+      <div
+        class="orb-2 absolute w-[480px] h-[480px] rounded-full opacity-[0.14]"
+        style="filter:blur(115px);background:radial-gradient(circle,#FF00BB,transparent 70%);bottom:-14%;right:-6%;"
+      >
+      </div>
+      <div
+        class="orb-3 absolute w-[360px] h-[360px] rounded-full opacity-[0.11]"
+        style="filter:blur(100px);background:radial-gradient(circle,#C0C0D8,transparent 70%);top:42%;right:16%;"
+      >
+      </div>
     </div>
 
     <!-- Floating NFT cards -->
-    <div class="fixed inset-0 pointer-events-none z-[2] max-md:hidden" aria-hidden="true">
-
+    <div
+      class="fixed inset-0 pointer-events-none z-[2] max-md:hidden"
+      aria-hidden="true"
+    >
       <!-- Card 1: Chrome silver -->
-      <div class="card-1 nft-card absolute w-[154px] rounded-2xl overflow-hidden opacity-70 border border-[rgba(192,192,216,0.18)]"
-           style="top:7%;left:4%;box-shadow:0 24px 60px rgba(0,0,0,0.6),0 0 0 1px rgba(192,192,216,0.08);">
-        <div class="h-[138px] flex items-center justify-center"
-             style="background:linear-gradient(140deg,#14142A,#22224A);">
-          <div class="w-[72px] h-[72px] rounded-full"
-               style="border:4px solid rgba(192,192,216,0.65);box-shadow:0 0 28px rgba(192,192,216,0.35),inset 0 0 18px rgba(192,192,216,0.1);"></div>
+      <div
+        class="card-1 nft-card absolute w-[154px] rounded-2xl overflow-hidden opacity-70 border border-[rgba(192,192,216,0.18)]"
+        style="top:7%;left:4%;box-shadow:0 24px 60px rgba(0,0,0,0.6),0 0 0 1px rgba(192,192,216,0.08);"
+      >
+        <div
+          class="h-[138px] flex items-center justify-center"
+          style="background:linear-gradient(140deg,#14142A,#22224A);"
+        >
+          <div
+            class="w-[72px] h-[72px] rounded-full"
+            style="border:4px solid rgba(192,192,216,0.65);box-shadow:0 0 28px rgba(192,192,216,0.35),inset 0 0 18px rgba(192,192,216,0.1);"
+          >
+          </div>
         </div>
-        <div class="chrome-meta flex justify-between px-3 py-2 border-t border-[rgba(192,192,216,0.1)] text-[8.5px] font-bold tracking-widest">
+        <div
+          class="chrome-meta flex justify-between px-3 py-2 border-t border-[rgba(192,192,216,0.1)] text-[8.5px] font-bold tracking-widest"
+        >
           <span>GENESIS #001</span><span>2.4 ETH</span>
         </div>
       </div>
 
       <!-- Card 2: Holographic rainbow border -->
-      <div class="card-2 nft-card holo-card absolute w-[154px] rounded-2xl overflow-hidden opacity-65"
-           style="top:58%;left:2%;box-shadow:0 24px 60px rgba(0,0,0,0.6);">
-        <div class="h-[138px] flex items-center justify-center"
-             style="background:linear-gradient(140deg,#0A0016,#160028);">
-          <div class="w-[52px] h-[52px]"
-               style="background:rgba(255,255,255,0.08);border:2px solid rgba(255,255,255,0.25);transform:rotate(45deg);box-shadow:0 0 28px rgba(180,80,255,0.5);"></div>
+      <div
+        class="card-2 nft-card holo-card absolute w-[154px] rounded-2xl overflow-hidden opacity-65"
+        style="top:58%;left:2%;box-shadow:0 24px 60px rgba(0,0,0,0.6);"
+      >
+        <div
+          class="h-[138px] flex items-center justify-center"
+          style="background:linear-gradient(140deg,#0A0016,#160028);"
+        >
+          <div
+            class="w-[52px] h-[52px]"
+            style="background:rgba(255,255,255,0.08);border:2px solid rgba(255,255,255,0.25);transform:rotate(45deg);box-shadow:0 0 28px rgba(180,80,255,0.5);"
+          >
+          </div>
         </div>
-        <div class="chrome-meta flex justify-between px-3 py-2 border-t border-[rgba(255,255,255,0.07)] text-[8.5px] font-bold tracking-widest">
+        <div
+          class="chrome-meta flex justify-between px-3 py-2 border-t border-[rgba(255,255,255,0.07)] text-[8.5px] font-bold tracking-widest"
+        >
           <span>VOID #042</span><span>1.8 ETH</span>
         </div>
       </div>
 
       <!-- Card 3: Cyan electric -->
-      <div class="card-3 nft-card absolute w-[154px] rounded-2xl overflow-hidden opacity-70 border border-[rgba(0,255,238,0.2)]"
-           style="top:10%;right:5%;box-shadow:0 24px 60px rgba(0,0,0,0.6),0 0 30px rgba(0,255,238,0.08);">
-        <div class="h-[138px] flex items-center justify-center"
-             style="background:linear-gradient(140deg,#001820,#003040);">
-          <div class="w-[68px] h-[68px] rounded-full"
-               style="border:8px solid rgba(0,255,238,0.55);box-shadow:0 0 0 5px rgba(0,255,238,0.12),0 0 32px rgba(0,255,238,0.3);"></div>
+      <div
+        class="card-3 nft-card absolute w-[154px] rounded-2xl overflow-hidden opacity-70 border border-[rgba(0,255,238,0.2)]"
+        style="top:10%;right:5%;box-shadow:0 24px 60px rgba(0,0,0,0.6),0 0 30px rgba(0,255,238,0.08);"
+      >
+        <div
+          class="h-[138px] flex items-center justify-center"
+          style="background:linear-gradient(140deg,#001820,#003040);"
+        >
+          <div
+            class="w-[68px] h-[68px] rounded-full"
+            style="border:8px solid rgba(0,255,238,0.55);box-shadow:0 0 0 5px rgba(0,255,238,0.12),0 0 32px rgba(0,255,238,0.3);"
+          >
+          </div>
         </div>
-        <div class="flex justify-between px-3 py-2 border-t border-[rgba(0,255,238,0.15)] text-[8.5px] font-bold tracking-widest font-display text-cyan-neon/60">
+        <div
+          class="flex justify-between px-3 py-2 border-t border-[rgba(0,255,238,0.15)] text-[8.5px] font-bold tracking-widest font-display text-cyan-neon/60"
+        >
           <span>NOVA #007</span><span>3.1 ETH</span>
         </div>
       </div>
 
       <!-- Card 4: Magenta -->
-      <div class="card-4 nft-card absolute w-[154px] rounded-2xl overflow-hidden opacity-65 border border-[rgba(255,0,187,0.2)]"
-           style="bottom:8%;right:7%;box-shadow:0 24px 60px rgba(0,0,0,0.6),0 0 30px rgba(255,0,187,0.08);">
-        <div class="h-[138px] flex items-center justify-center"
-             style="background:linear-gradient(140deg,#1A0018,#300030);">
-          <div class="blob w-[76px] h-[76px]"
-               style="background:rgba(255,0,187,0.18);border:2px solid rgba(255,0,187,0.4);box-shadow:0 0 24px rgba(255,0,187,0.3);"></div>
+      <div
+        class="card-4 nft-card absolute w-[154px] rounded-2xl overflow-hidden opacity-65 border border-[rgba(255,0,187,0.2)]"
+        style="bottom:8%;right:7%;box-shadow:0 24px 60px rgba(0,0,0,0.6),0 0 30px rgba(255,0,187,0.08);"
+      >
+        <div
+          class="h-[138px] flex items-center justify-center"
+          style="background:linear-gradient(140deg,#1A0018,#300030);"
+        >
+          <div
+            class="blob w-[76px] h-[76px]"
+            style="background:rgba(255,0,187,0.18);border:2px solid rgba(255,0,187,0.4);box-shadow:0 0 24px rgba(255,0,187,0.3);"
+          >
+          </div>
         </div>
-        <div class="flex justify-between px-3 py-2 border-t border-[rgba(255,0,187,0.15)] text-[8.5px] font-bold tracking-widest font-display text-magenta-neon/60">
+        <div
+          class="flex justify-between px-3 py-2 border-t border-[rgba(255,0,187,0.15)] text-[8.5px] font-bold tracking-widest font-display text-magenta-neon/60"
+        >
           <span>PULSE #019</span><span>0.9 ETH</span>
         </div>
       </div>
 
       <!-- Card 5: Y2K gold -->
-      <div class="card-5 nft-card absolute w-[154px] rounded-2xl overflow-hidden opacity-40 border border-[rgba(255,200,50,0.18)]"
-           style="top:42%;right:2%;box-shadow:0 24px 60px rgba(0,0,0,0.6);">
-        <div class="h-[138px] flex items-center justify-center"
-             style="background:linear-gradient(140deg,#1A1000,#2A2000);">
-          <div class="w-0 h-0"
-               style="border-left:34px solid transparent;border-right:34px solid transparent;border-bottom:60px solid rgba(255,200,50,0.32);filter:drop-shadow(0 0 14px rgba(255,200,50,0.45));"></div>
+      <div
+        class="card-5 nft-card absolute w-[154px] rounded-2xl overflow-hidden opacity-40 border border-[rgba(255,200,50,0.18)]"
+        style="top:42%;right:2%;box-shadow:0 24px 60px rgba(0,0,0,0.6);"
+      >
+        <div
+          class="h-[138px] flex items-center justify-center"
+          style="background:linear-gradient(140deg,#1A1000,#2A2000);"
+        >
+          <div
+            class="w-0 h-0"
+            style="border-left:34px solid transparent;border-right:34px solid transparent;border-bottom:60px solid rgba(255,200,50,0.32);filter:drop-shadow(0 0 14px rgba(255,200,50,0.45));"
+          >
+          </div>
         </div>
-        <div class="flex justify-between px-3 py-2 border-t border-[rgba(255,200,50,0.12)] text-[8.5px] font-bold tracking-widest font-display text-[#FFD700]/55">
+        <div
+          class="flex justify-between px-3 py-2 border-t border-[rgba(255,200,50,0.12)] text-[8.5px] font-bold tracking-widest font-display text-[#FFD700]/55"
+        >
           <span>FLUX #088</span><span>4.5 ETH</span>
         </div>
       </div>
-
     </div>
 
     <!-- Y2K star sparkles -->
-    <div class="fixed inset-0 pointer-events-none z-[3] max-sm:hidden" aria-hidden="true">
-      <span class="star absolute text-xs text-cyan-neon/45"  style="top:21%;left:14%;animation-delay:0s;">✦</span>
-      <span class="star absolute text-xs text-magenta-neon/35" style="top:34%;right:19%;animation-delay:1s;">✧</span>
-      <span class="star absolute text-xs text-chrome/30"    style="bottom:31%;left:19%;animation-delay:0.5s;">✦</span>
-      <span class="star absolute text-xs text-[#BDFF4F]/30" style="bottom:24%;right:24%;animation-delay:2s;">✧</span>
-      <span class="star absolute text-xs text-cyan-neon/20" style="top:54%;left:9%;animation-delay:1.5s;">✦</span>
+    <div
+      class="fixed inset-0 pointer-events-none z-[3] max-sm:hidden"
+      aria-hidden="true"
+    >
+      <span
+        class="star absolute text-xs text-cyan-neon/45"
+        style="top:21%;left:14%;animation-delay:0s;">✦</span
+      >
+      <span
+        class="star absolute text-xs text-magenta-neon/35"
+        style="top:34%;right:19%;animation-delay:1s;">✧</span
+      >
+      <span
+        class="star absolute text-xs text-chrome/30"
+        style="bottom:31%;left:19%;animation-delay:0.5s;">✦</span
+      >
+      <span
+        class="star absolute text-xs text-[#BDFF4F]/30"
+        style="bottom:24%;right:24%;animation-delay:2s;">✧</span
+      >
+      <span
+        class="star absolute text-xs text-cyan-neon/20"
+        style="top:54%;left:9%;animation-delay:1.5s;">✦</span
+      >
     </div>
 
     <!-- ════════════════════ MAIN ════════════════════ -->
-    <main class="relative z-10 min-h-screen flex items-center justify-center px-6 py-20">
+    <main
+      class="relative z-10 min-h-screen flex items-center justify-center px-6 py-20"
+    >
       <div class="max-w-[680px] w-full text-center flex flex-col items-center">
-
         <!-- Coming soon badge -->
-        <span class="anim-badge inline-flex items-center gap-2 px-4 py-[6px] rounded-full mb-11
+        <span
+          class="anim-badge inline-flex items-center gap-2 px-4 py-[6px] rounded-full mb-11
                      border border-cyan-neon/30 bg-cyan-neon/[0.05]
-                     font-display text-[11px] font-bold tracking-[0.14em] uppercase text-cyan-neon">
-          <span class="badge-dot w-[7px] h-[7px] rounded-full bg-cyan-neon"
-                style="box-shadow:0 0 9px #00FFEE;"></span>
+                     font-display text-[11px] font-bold tracking-[0.14em] uppercase text-cyan-neon"
+        >
+          <span
+            class="badge-dot w-[7px] h-[7px] rounded-full bg-cyan-neon"
+            style="box-shadow:0 0 9px #00FFEE;"></span>
           Coming Soon
         </span>
 
         <!-- Chrome shimmer headline -->
-        <h1 class="anim-headline font-display font-extrabold leading-[0.88] tracking-[-0.04em]
+        <h1
+          class="anim-headline font-display font-extrabold leading-[0.88] tracking-[-0.04em]
                    flex flex-col gap-1 mb-[18px]"
-            style="font-size:clamp(4.5rem,13vw,9rem);">
+          style="font-size:clamp(4.5rem,13vw,9rem);"
+        >
           <span class="shimmer-text block">Mint.</span>
           <span class="shimmer-text block">Differently.</span>
         </h1>
 
         <!-- Brand name: spaced chrome -->
-        <p class="anim-brand font-display font-bold tracking-[0.5em] uppercase text-chrome-dim mb-11"
-           style="font-size:clamp(0.55rem,1.5vw,0.75rem);">
+        <p
+          class="anim-brand font-display font-bold tracking-[0.5em] uppercase text-chrome-dim mb-11"
+          style="font-size:clamp(0.55rem,1.5vw,0.75rem);"
+        >
           M I N T Z I L I O
         </p>
 
         <!-- Tagline -->
-        <p class="anim-tagline font-display leading-[1.35] text-chrome/85 mb-4"
-           style="font-size:clamp(1.2rem,3vw,1.6rem);">
+        <p
+          class="anim-tagline font-display leading-[1.35] text-chrome/85 mb-4"
+          style="font-size:clamp(1.2rem,3vw,1.6rem);"
+        >
           NFT minting was boring.<br />
           <em class="not-italic text-cyan-neon">We fixed that.</em>
         </p>
 
         <!-- Description -->
-        <p class="anim-desc text-chrome-dim/65 max-w-[460px] leading-[1.75] mb-12">
+        <p
+          class="anim-desc text-chrome-dim/65 max-w-[460px] leading-[1.75] mb-12"
+        >
           Built on top of
-          <a href="https://www.ponzilio.com/" class="holo-link font-medium" target="_blank" rel="noopener">Ponzilio</a>
-          — the NFT collection club that's anything but ordinary. Bold drops, wild art, zero boredom.
+          <a
+            href="https://www.ponzilio.com/"
+            class="holo-link font-medium"
+            target="_blank"
+            rel="noopener">Ponzilio</a
+          >
+          - the NFT collection club that's anything but ordinary. Bold drops, wild
+          art, zero boredom.
         </p>
 
         <!-- Y2K Gel CTA button -->
@@ -179,168 +286,318 @@ import '../styles/global.css';
           <span class="relative z-10">Enter Ponzilio</span>
           <span class="relative z-10 text-xl">→</span>
         </a>
-
       </div>
     </main>
 
-    <footer class="relative z-10 px-6 py-7 text-center text-[13px] text-chrome-dim/30 border-t border-[rgba(255,255,255,0.05)]">
+    <footer
+      class="relative z-10 px-6 py-7 text-center text-[13px] text-chrome-dim/30 border-t border-[rgba(255,255,255,0.05)]"
+    >
       <p>© 2026 Mintzilio &mdash; Something wild is coming.</p>
     </footer>
-
   </body>
 </html>
 
 <style>
   /* ── Keyframes ─────────────────────────────── */
   @keyframes orbDrift {
-    0%,100% { transform:translate(0,0) scale(1); }
-    33%     { transform:translate(50px,-40px) scale(1.06); }
-    66%     { transform:translate(-25px,30px) scale(0.96); }
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+    33% {
+      transform: translate(50px, -40px) scale(1.06);
+    }
+    66% {
+      transform: translate(-25px, 30px) scale(0.96);
+    }
   }
-  @keyframes float1 { 0%,100%{transform:rotate(-7deg) translateY(0)}  50%{transform:rotate(-7deg) translateY(-20px)} }
-  @keyframes float2 { 0%,100%{transform:rotate(5deg)  translateY(0)}  50%{transform:rotate(5deg)  translateY(-15px)} }
-  @keyframes float3 { 0%,100%{transform:rotate(6deg)  translateY(0)}  50%{transform:rotate(6deg)  translateY(-22px)} }
-  @keyframes float4 { 0%,100%{transform:rotate(-4deg) translateY(0)}  50%{transform:rotate(-4deg) translateY(-12px)} }
-  @keyframes float5 { 0%,100%{transform:rotate(9deg)  translateY(0)}  50%{transform:rotate(9deg)  translateY(-18px)} }
+  @keyframes float1 {
+    0%,
+    100% {
+      transform: rotate(-7deg) translateY(0);
+    }
+    50% {
+      transform: rotate(-7deg) translateY(-20px);
+    }
+  }
+  @keyframes float2 {
+    0%,
+    100% {
+      transform: rotate(5deg) translateY(0);
+    }
+    50% {
+      transform: rotate(5deg) translateY(-15px);
+    }
+  }
+  @keyframes float3 {
+    0%,
+    100% {
+      transform: rotate(6deg) translateY(0);
+    }
+    50% {
+      transform: rotate(6deg) translateY(-22px);
+    }
+  }
+  @keyframes float4 {
+    0%,
+    100% {
+      transform: rotate(-4deg) translateY(0);
+    }
+    50% {
+      transform: rotate(-4deg) translateY(-12px);
+    }
+  }
+  @keyframes float5 {
+    0%,
+    100% {
+      transform: rotate(9deg) translateY(0);
+    }
+    50% {
+      transform: rotate(9deg) translateY(-18px);
+    }
+  }
   @keyframes shimmer {
-    from { background-position:0% center; }
-    to   { background-position:200% center; }
+    from {
+      background-position: 0% center;
+    }
+    to {
+      background-position: 200% center;
+    }
   }
   @keyframes holoShift {
-    0%,100% { background-position:0% 50%; }
-    50%     { background-position:100% 50%; }
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
   }
   @keyframes twinkle {
-    0%,100% { opacity:0.35; transform:scale(1) rotate(0deg); }
-    50%     { opacity:0.85; transform:scale(1.4) rotate(15deg); }
+    0%,
+    100% {
+      opacity: 0.35;
+      transform: scale(1) rotate(0deg);
+    }
+    50% {
+      opacity: 0.85;
+      transform: scale(1.4) rotate(15deg);
+    }
   }
   @keyframes pulse {
-    0%,100% { opacity:1; transform:scale(1); }
-    50%     { opacity:0.35; transform:scale(0.65); }
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.35;
+      transform: scale(0.65);
+    }
   }
   @keyframes fadeUp {
-    from { opacity:0; transform:translateY(22px); }
-    to   { opacity:1; transform:translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(22px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   @keyframes blobMorph {
-    0%,100% { border-radius:62% 38% 46% 54% / 60% 44% 56% 40%; }
-    33%     { border-radius:38% 62% 60% 40% / 45% 58% 42% 55%; }
-    66%     { border-radius:54% 46% 38% 62% / 55% 38% 62% 45%; }
+    0%,
+    100% {
+      border-radius: 62% 38% 46% 54% / 60% 44% 56% 40%;
+    }
+    33% {
+      border-radius: 38% 62% 60% 40% / 45% 58% 42% 55%;
+    }
+    66% {
+      border-radius: 54% 46% 38% 62% / 55% 38% 62% 45%;
+    }
   }
   @property --border-angle {
-    syntax: '<angle>';
+    syntax: "<angle>";
     initial-value: 0deg;
     inherits: false;
   }
-  @keyframes borderRotate { to { --border-angle:360deg; } }
+  @keyframes borderRotate {
+    to {
+      --border-angle: 360deg;
+    }
+  }
 
   /* ── Grain ─────────────────────────────────── */
   .noise {
-    opacity:0.05;
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    background-size:200px 200px;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 200px 200px;
   }
 
   /* ── Y2K Scanlines ──────────────────────────── */
   .scanlines {
-    background:repeating-linear-gradient(
+    background: repeating-linear-gradient(
       0deg,
       transparent,
       transparent 3px,
-      rgba(0,255,238,0.011) 3px,
-      rgba(0,255,238,0.011) 4px
+      rgba(0, 255, 238, 0.011) 3px,
+      rgba(0, 255, 238, 0.011) 4px
     );
   }
 
   /* ── Orbs ───────────────────────────────────── */
-  .orb-1 { animation:orbDrift 30s ease-in-out infinite; }
-  .orb-2 { animation:orbDrift 38s ease-in-out infinite -12s; }
-  .orb-3 { animation:orbDrift 24s ease-in-out infinite -6s; }
+  .orb-1 {
+    animation: orbDrift 30s ease-in-out infinite;
+  }
+  .orb-2 {
+    animation: orbDrift 38s ease-in-out infinite -12s;
+  }
+  .orb-3 {
+    animation: orbDrift 24s ease-in-out infinite -6s;
+  }
 
   /* ── Card floats ────────────────────────────── */
-  .card-1 { animation:float1 9s  ease-in-out infinite; }
-  .card-2 { animation:float2 12s ease-in-out infinite; }
-  .card-3 { animation:float3 10s ease-in-out infinite; }
-  .card-4 { animation:float4 8s  ease-in-out infinite; }
-  .card-5 { animation:float5 14s ease-in-out infinite; }
+  .card-1 {
+    animation: float1 9s ease-in-out infinite;
+  }
+  .card-2 {
+    animation: float2 12s ease-in-out infinite;
+  }
+  .card-3 {
+    animation: float3 10s ease-in-out infinite;
+  }
+  .card-4 {
+    animation: float4 8s ease-in-out infinite;
+  }
+  .card-5 {
+    animation: float5 14s ease-in-out infinite;
+  }
 
   /* ── Staggered reveal ───────────────────────── */
-  .anim-badge    { opacity:0; animation:fadeUp 0.55s ease 0.10s forwards; }
-  .anim-headline { opacity:0; animation:fadeUp 0.65s ease 0.25s forwards; }
-  .anim-brand    { opacity:0; animation:fadeUp 0.55s ease 0.40s forwards; }
-  .anim-tagline  { opacity:0; animation:fadeUp 0.55s ease 0.52s forwards; }
-  .anim-desc     { opacity:0; animation:fadeUp 0.55s ease 0.62s forwards; }
-  .anim-cta      { opacity:0; animation:fadeUp 0.55s ease 0.72s forwards; }
+  .anim-badge {
+    opacity: 0;
+    animation: fadeUp 0.55s ease 0.1s forwards;
+  }
+  .anim-headline {
+    opacity: 0;
+    animation: fadeUp 0.65s ease 0.25s forwards;
+  }
+  .anim-brand {
+    opacity: 0;
+    animation: fadeUp 0.55s ease 0.4s forwards;
+  }
+  .anim-tagline {
+    opacity: 0;
+    animation: fadeUp 0.55s ease 0.52s forwards;
+  }
+  .anim-desc {
+    opacity: 0;
+    animation: fadeUp 0.55s ease 0.62s forwards;
+  }
+  .anim-cta {
+    opacity: 0;
+    animation: fadeUp 0.55s ease 0.72s forwards;
+  }
 
   /* ── Badge dot ──────────────────────────────── */
-  .badge-dot { animation:pulse 2.2s ease-in-out infinite; }
+  .badge-dot {
+    animation: pulse 2.2s ease-in-out infinite;
+  }
 
   /* ── Chrome shimmer text ────────────────────── */
   .shimmer-text {
-    background:linear-gradient(90deg,
+    background: linear-gradient(
+      90deg,
       #404055 0%,
-      #B0B0CC 18%,
-      #F0F0FF 32%,
-      #FFFFFF 42%,
-      #F0F0FF 52%,
-      #B0B0CC 68%,
+      #b0b0cc 18%,
+      #f0f0ff 32%,
+      #ffffff 42%,
+      #f0f0ff 52%,
+      #b0b0cc 68%,
       #404055 85%,
-      #B0B0CC 100%
+      #b0b0cc 100%
     );
-    background-size:200% auto;
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    background-clip:text;
-    animation:shimmer 5s linear infinite;
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 5s linear infinite;
   }
 
   /* ── Holographic rainbow border card ───────── */
   .holo-card {
     background:
-      linear-gradient(#0A0016,#0A0016) padding-box,
-      conic-gradient(from var(--border-angle),#FF00BB,#00FFEE,#BDFF4F,#FF5F1F,#FF00BB) border-box;
-    border:1px solid transparent;
-    animation:borderRotate 4s linear infinite;
+      linear-gradient(#0a0016, #0a0016) padding-box,
+      conic-gradient(
+          from var(--border-angle),
+          #ff00bb,
+          #00ffee,
+          #bdff4f,
+          #ff5f1f,
+          #ff00bb
+        )
+        border-box;
+    border: 1px solid transparent;
+    animation: borderRotate 4s linear infinite;
   }
 
   /* ── Holographic rainbow link text ─────────── */
   .holo-link {
-    background:linear-gradient(90deg,#00FFEE,#FF00BB,#BDFF4F,#FF5F1F,#00FFEE);
-    background-size:300% auto;
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    background-clip:text;
-    animation:holoShift 4s ease-in-out infinite;
-    text-decoration:none;
+    background: linear-gradient(
+      90deg,
+      #00ffee,
+      #ff00bb,
+      #bdff4f,
+      #ff5f1f,
+      #00ffee
+    );
+    background-size: 300% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: holoShift 4s ease-in-out infinite;
+    text-decoration: none;
   }
 
   /* ── Y2K Gel button gloss highlight ─────────── */
   .gel-btn::after {
-    content:'';
-    position:absolute;
-    inset:0;
-    height:52%;
-    left:3%;
-    width:94%;
-    background:linear-gradient(to bottom,rgba(255,255,255,0.42),rgba(255,255,255,0));
-    border-radius:999px 999px 0 0;
-    pointer-events:none;
-    z-index:1;
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 52%;
+    left: 3%;
+    width: 94%;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.42),
+      rgba(255, 255, 255, 0)
+    );
+    border-radius: 999px 999px 0 0;
+    pointer-events: none;
+    z-index: 1;
   }
   .gel-btn:hover {
-    transform:translateY(-3px);
-    box-shadow:0 0 52px rgba(0,255,238,0.6),0 1px 0 rgba(255,255,255,0.45) inset,0 -2px 0 rgba(0,0,0,0.25) inset !important;
+    transform: translateY(-3px);
+    box-shadow:
+      0 0 52px rgba(0, 255, 238, 0.6),
+      0 1px 0 rgba(255, 255, 255, 0.45) inset,
+      0 -2px 0 rgba(0, 0, 0, 0.25) inset !important;
   }
 
   /* ── Star sparkles ──────────────────────────── */
-  .star { animation:twinkle 3.5s ease-in-out infinite; }
+  .star {
+    animation: twinkle 3.5s ease-in-out infinite;
+  }
 
   /* ── Blob morph ─────────────────────────────── */
-  .blob { animation:blobMorph 7s ease-in-out infinite; }
+  .blob {
+    animation: blobMorph 7s ease-in-out infinite;
+  }
 
   /* ── Chrome card metadata text ──────────────── */
   .chrome-meta {
-    font-family:'Bricolage Grotesque',sans-serif;
-    color:rgba(192,192,216,0.5);
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: rgba(192, 192, 216, 0.5);
   }
 </style>

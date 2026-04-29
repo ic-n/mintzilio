@@ -1,0 +1,65 @@
+{
+  "name": "Ponzilio #8",
+  "image": "https://gateway.irys.xyz/BK61EhM3N42Z9AYHVHy8JBA1A28uUKhggm39wAERqQK7",
+  "attributes": [
+    {
+      "value": "Shkreli",
+      "trait_type": "BG"
+    },
+    {
+      "value": "White",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Makeup"
+    },
+    {
+      "value": "Red",
+      "trait_type": "Eyes"
+    },
+    {
+      "value": "Angry",
+      "trait_type": "Mouths"
+    },
+    {
+      "value": "Confused",
+      "trait_type": "Brows"
+    },
+    {
+      "value": "Normal Half Dyed Blue",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Belle Delphine",
+      "trait_type": "Clothes"
+    },
+    {
+      "value": "Round Glasses",
+      "trait_type": "Glasses"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hat"
+    },
+    {
+      "value": "Jewelry: Angel Necklace",
+      "trait_type": "Weapon"
+    },
+    {
+      "value": "None",
+      "trait_type": "Overlay"
+    }
+  ],
+  "description": "Toxic Ponzilio Boyfriends - 777 generative PFP characters on Solana.",
+  "external_url": "https://ponzilio.com",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.irys.xyz/BK61EhM3N42Z9AYHVHy8JBA1A28uUKhggm39wAERqQK7",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

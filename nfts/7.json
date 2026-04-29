@@ -1,0 +1,65 @@
+{
+  "name": "Ponzilio #7",
+  "image": "https://gateway.irys.xyz/3ThzfHNiTuyMdMCEFucPfotfaYgSaUBgbJ5hNm1QixVW",
+  "attributes": [
+    {
+      "value": "Disco Girls",
+      "trait_type": "BG"
+    },
+    {
+      "value": "White",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Makeup"
+    },
+    {
+      "value": "Brown",
+      "trait_type": "Eyes"
+    },
+    {
+      "value": "Smile",
+      "trait_type": "Mouths"
+    },
+    {
+      "value": "Sad",
+      "trait_type": "Brows"
+    },
+    {
+      "value": "Slicked Back Black",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Dior",
+      "trait_type": "Clothes"
+    },
+    {
+      "value": "None",
+      "trait_type": "Glasses"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hat"
+    },
+    {
+      "value": "None",
+      "trait_type": "Weapon"
+    },
+    {
+      "value": "None",
+      "trait_type": "Overlay"
+    }
+  ],
+  "description": "Toxic Ponzilio Boyfriends - 777 generative PFP characters on Solana.",
+  "external_url": "https://ponzilio.com",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.irys.xyz/3ThzfHNiTuyMdMCEFucPfotfaYgSaUBgbJ5hNm1QixVW",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

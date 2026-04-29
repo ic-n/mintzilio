@@ -26,3 +26,12 @@ pnpm-debug.log*
 ## trade secrets
 project.md
 docs/Technical Specification_ NFT Generator Logic.md
+
+# keypairs — never commit private keys
+keys/
+
+# NFT images — large binaries, already on Arweave after upload
+nfts/*.png
+
+# Candy Machine upload cache — generated, deployment-specific
+candy-machine/asset-cache.json
